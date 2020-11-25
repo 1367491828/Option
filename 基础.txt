@@ -1,0 +1,42 @@
+Q1:
+
+Node.js: 是js的一个运行环境。
+
+npm: node.js的包管理器。
+
+nvm: node.js版本管理工具。
+
+nrm: 镜像管理的一个工具。
+
+yarn: facebook推出的js包管理器。
+
+React: 使用jsx语法的一个前端框架。
+
+Vue: 渐进式的mvvm前端框架。
+
+node_modules：第三方js包存放的文件夹。
+
+package.json：依赖第三方包的信息和运行等命令的配置。
+
+ECMAScript：js语法的一种规范。
+
+Electron：前端开发桌面应用的一个工具。
+
+Babel: es6或者jsx高级语法转为es5语法，提高浏览器兼容性。
+
+Webpack：配置式前端打包构建工具。
+
+SSR: 服务器端渲染。
+
+v8: js的高性能引擎。
+
+Stack Overflow: 国外的it技术论坛平台。
+
+deno: 替换node.js的运行环境。
+
+
+Q2:
+
+1.csdn。
+2.掘金。
+3.微信公众号。
