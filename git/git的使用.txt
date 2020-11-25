@@ -1,0 +1,17 @@
+Q1：
+
+git checkout develop          切换到develop分支
+git checkout -b login          分出一个登录分支
+git add .                              将所有文件提交到暂存区
+git commit -m “描述”      提交更改
+git checkout develop          回到develop分支
+git merge --no-ff login       把做好的功能合并到develop中
+git pull                                 提交前都需要先pull一下
+git push origin develop       把develop提交到自己的远程仓库中
+
+
+
+Q2:
+
+1.在开发时一般有自己的分支，在自己的分支上进行开发，不要在master分支上开发。
+2.版本回退，当发现自己本地的代码需要回退时，还没提交到远程：git checkout -- filename 工作区返回最近一次的git commit 或git add 时的状态。

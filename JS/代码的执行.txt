@@ -1,0 +1,8 @@
+const getLoglevel = () => {
+  return localStorage.loglevel ?? 'INFO';
+};
+
+解释：如果localstorage有设置过loglevel则返回设置的值，如果未设置则返回INFO
+//主要时解决 || 运算符的不足，当为false或0等boolean类型为false的数据时，就会返回后面值的缺陷，
+|| 运算符有设置默认值的作用，但是缺陷就是所有能转为false的值都会转为false,就会使用默认值
+只有前面的值为undefined和null时才会使用后面的默认值。

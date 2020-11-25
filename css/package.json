@@ -1,0 +1,19 @@
+{
+  "name": "css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.0.2",
+    "autoprefixer-core": "^6.0.1",
+    "cssnext": "^1.8.4",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^9.0.0"
+  }
+}
